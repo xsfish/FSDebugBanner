@@ -1,0 +1,16 @@
+PODS:
+  - FSDebugBanner (0.1.0)
+
+DEPENDENCIES:
+  - FSDebugBanner (from `../`)
+
+EXTERNAL SOURCES:
+  FSDebugBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSDebugBanner: 62e0690ba2f54688711b63e626af4a2f6022c08b
+
+PODFILE CHECKSUM: 910e9ce6d78e0e4defd77adca1c760375f231c0e
+
+COCOAPODS: 1.7.4

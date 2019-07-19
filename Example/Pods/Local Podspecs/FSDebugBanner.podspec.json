@@ -1,0 +1,22 @@
+{
+  "name": "FSDebugBanner",
+  "version": "0.1.0",
+  "summary": "A short description of FSDebugBanner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fredcom/FSDebugBanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fredcom": "mmfeishao@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Fredcom/FSDebugBanner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FSDebugBanner/Classes/**/*"
+}

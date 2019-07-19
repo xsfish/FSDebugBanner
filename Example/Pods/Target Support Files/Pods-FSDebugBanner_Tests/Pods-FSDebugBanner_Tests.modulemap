@@ -1,0 +1,6 @@
+framework module Pods_FSDebugBanner_Tests {
+  umbrella header "Pods-FSDebugBanner_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
