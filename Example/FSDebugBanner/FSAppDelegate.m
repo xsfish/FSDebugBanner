@@ -14,8 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    FSDebugBannerView *view = [[FSDebugBannerView alloc] init];
-    [self.window addSubview:view];
+    [self.window addSubview:[[FSDebugBannerView alloc] initWithText:@"DEBUG"]];
     return YES;
 }
 
