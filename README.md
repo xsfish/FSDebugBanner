@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/FSDebugBanner.svg?style=flat)](https://cocoapods.org/pods/FSDebugBanner)
 [![Platform](https://img.shields.io/cocoapods/p/FSDebugBanner.svg?style=flat)](https://cocoapods.org/pods/FSDebugBanner)
 
-## Example
+A debug banner is at the top right corner of the view.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![image](https://raw.githubusercontent.com/xsfish/FSDebugBanner/master/Example/Screenshot/01.png)
+![image](https://raw.githubusercontent.com/xsfish/FSDebugBanner/master/Example/Screenshot/02.png)
 
 ## Requirements
+
 * iOS8.0+
 
 ## Installation
@@ -20,7 +22,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FSDebugBanner'
 ```
-## Example
+
+## Usage
 
 Objective-C
 ```Objective-C
@@ -47,7 +50,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Author
 
-Fredcom, mmfeishao@163.com
+xsfish
 
 ## License
 
