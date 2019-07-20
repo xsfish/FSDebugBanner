@@ -47,6 +47,7 @@
     
     CGFloat screenWidth = CGRectGetWidth(UIScreen.mainScreen.bounds);
     self.frame = CGRectMake(screenWidth - self.fixedWidth, 0, self.fixedWidth, self.fixedWidth);
+    self.userInteractionEnabled = false;
     self.layer.zPosition = FLT_MAX;
     
     // banner shape

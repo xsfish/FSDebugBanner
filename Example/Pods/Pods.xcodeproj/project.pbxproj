@@ -10,12 +10,10 @@
 		0BF9DF1DB8EFBB92D4841C2D8321820A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0C857126F2330DF76D18643F167F0F2B /* Pods-FSDebugBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AF9FCC8248D0552F823E5B9D27C01E /* Pods-FSDebugBanner_Example-dummy.m */; };
 		0DC80C8A05CDCFF2F3822BB631CD4DC7 /* Pods-FSDebugBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C056DBC2C3650C0E87E4BBC33F6641C /* Pods-FSDebugBanner_Tests-dummy.m */; };
-		64490647AF2F55D6D2DBD6610CB24ECE /* FSDebugBannerA.h in Sources */ = {isa = PBXBuildFile; fileRef = 072FDBDB7478DA37124AAAFDDD846403 /* FSDebugBannerA.h */; };
 		66210CE5638E31F40524634C88E26ED1 /* Pods-FSDebugBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65521E48CC84965ED92D45C3419C5146 /* Pods-FSDebugBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87E88E44EBCBA3C1CD3116848B8580F1 /* FSDebugBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E646CC9D7362F63DDA3A3CDD1B5CB5D9 /* FSDebugBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5D6DA4222E199A300D00B2D /* FSDebugBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D6DA4022E199A300D00B2D /* FSDebugBannerView.m */; };
 		A5D6DA4322E199A300D00B2D /* FSDebugBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D6DA4122E199A300D00B2D /* FSDebugBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5D6DA4422E19B1200D00B2D /* FSDebugBannerA.h in Headers */ = {isa = PBXBuildFile; fileRef = 072FDBDB7478DA37124AAAFDDD846403 /* FSDebugBannerA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2D8AB536616C138E1FC5AC7A0714EA2 /* FSDebugBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CCCC384FD28F9B6C3440D63FAF404B /* FSDebugBanner-dummy.m */; };
 		CA7510E35ECC968D2B90ADF96E0A8DBB /* Pods-FSDebugBanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFA34B08D80C1B2A961698AC1E13BC9 /* Pods-FSDebugBanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBADCC3492E41654B367E1BE769AEE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		072FDBDB7478DA37124AAAFDDD846403 /* FSDebugBannerA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSDebugBannerA.h; path = FSDebugBanner/Classes/FSDebugBannerA.h; sourceTree = "<group>"; };
 		0C056DBC2C3650C0E87E4BBC33F6641C /* Pods-FSDebugBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSDebugBanner_Tests-dummy.m"; sourceTree = "<group>"; };
 		1837F328BC9B040568C7B836EB6DAB84 /* Pods-FSDebugBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSDebugBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28CCCC384FD28F9B6C3440D63FAF404B /* FSDebugBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSDebugBanner-dummy.m"; sourceTree = "<group>"; };
@@ -157,7 +154,6 @@
 		A2197AF79201DAF66FC235E132E22F93 /* FSDebugBanner */ = {
 			isa = PBXGroup;
 			children = (
-				072FDBDB7478DA37124AAAFDDD846403 /* FSDebugBannerA.h */,
 				A5D6DA4122E199A300D00B2D /* FSDebugBannerView.h */,
 				A5D6DA4022E199A300D00B2D /* FSDebugBannerView.m */,
 				D507EC06412C4AD4EA5B18D50851B953 /* Pod */,
@@ -235,7 +231,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D6DA4422E19B1200D00B2D /* FSDebugBannerA.h in Headers */,
 				A5D6DA4322E199A300D00B2D /* FSDebugBannerView.h in Headers */,
 				87E88E44EBCBA3C1CD3116848B8580F1 /* FSDebugBanner-umbrella.h in Headers */,
 			);
@@ -383,7 +378,6 @@
 			files = (
 				A5D6DA4222E199A300D00B2D /* FSDebugBannerView.m in Sources */,
 				C2D8AB536616C138E1FC5AC7A0714EA2 /* FSDebugBanner-dummy.m in Sources */,
-				64490647AF2F55D6D2DBD6610CB24ECE /* FSDebugBannerA.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
